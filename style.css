@@ -75,6 +75,11 @@ h4 {
 h6 {
   font-weight: bold;
 }
+.part-info {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
 .col-lg-4 {
   margin-left: 115px;
 }
@@ -263,6 +268,9 @@ h6 {
   border-radius: 4px;
   -webkit-box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.15);
   box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.15);
+}
+.info-box .icon {
+  margin: 5px;
 }
 .service-box .icon {
 }
