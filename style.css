@@ -271,6 +271,12 @@ h6 {
   line-height: 25px;
   text-align: right;
 }
+@media all and (min-width: 992px) {
+  #navbarSupportedContent {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
 .anchor-btn {
   background: #ffaf53;
   padding: 10px 20px;
