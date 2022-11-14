@@ -208,6 +208,10 @@ h6 {
 .section-title {
   padding-bottom: 80px;
 }
+.section-img {
+  width: 500px;
+  height: 500px;
+}
 .section-title h3 {
   color: #ab2f52;
   text-transform: uppercase;
