@@ -91,7 +91,6 @@ h6 {
 @media all and (max-width: 372px) {
   .logo-1 {
     font-size: calc(100vw * 0.05);
-    color: aqua;
   }
 
   .navbar-brand {
