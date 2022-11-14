@@ -79,6 +79,7 @@ h6 {
   display: flex;
   width: 100%;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 .col-lg-4 {
   margin-left: 115px;
@@ -86,6 +87,25 @@ h6 {
 .logo-1 {
   color: #ab2f52;
 }
+
+@media all and (max-width: 372px) {
+  .logo-1 {
+    font-size: calc(100vw * 0.05);
+    color: aqua;
+  }
+
+  .navbar-brand {
+    margin-right: 0;
+  }
+
+  .navbar-toggler {
+    padding: calc(100vw * 0.05);
+  }
+}
+
+@media all and (max-width: 472px) {
+}
+
 .navbar {
   position: fixed;
   right: 0;
@@ -101,7 +121,8 @@ h6 {
 .navbar .active {
   color: #000000 !important;
 }
-.navbar .navbar-brand {
+.container-logo {
+  background-color: #2388ed;
 }
 .navbar .nav-item {
   margin: 0 5px;
@@ -136,8 +157,8 @@ h6 {
   color: #333;
 }
 .nav-scroll .navbar-brand img {
-  -webkit-transform: scale(1.03) !important;
-  transform: scale(1.03) !important;
+  -webkit-transform: scale(1) !important;
+  transform: scale(1) !important;
 }
 .nav-scroll .navbar-toggler {
   cursor: pointer;
@@ -551,7 +572,7 @@ h6 {
 @media all and (max-width: 991px) {
   .navbar .navbar-collapse {
     overflow: auto;
-    background: rgba(0, 0, 0, 0.72);
+    background: #fff;
     color: #fff !important;
     text-align: center;
     padding: 10px 0;
